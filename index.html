@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Youtube Clone</title>
+  </head>
+
+  <body>
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="aside-header">
+        <ion-icon id="menu" name="menu-outline"></ion-icon>
+        <img class="youtube-logo" src="Youtube-logo.png" alt="Youtube Logo" />
+      </div>
+
+      <div class="aside-container">
+        <div class="sidebar-item active">
+          <ion-icon name="home-outline"></ion-icon>
+          <span>Home</span>
+        </div>
+
+        <div class="sidebar-item">
+          <ion-icon name="logo-youtube"></ion-icon>
+          <span>Shorts</span>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="sidebar-item">
+        <span>Subscriptions</span>
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </div>
+
+      <div class="sidebar-item">
+        <span class="sidebar-span">E</span>
+        <span>Epoxy Labs</span>
+      </div>
+
+      <div class="sidebar-item">
+        <span class="sidebar-span">R</span>
+        <span>Romayroh</span>
+      </div>
+
+      <div class="sidebar-item">
+        <span class="sidebar-span">P</span>
+        <span>Psychology Sim...</span>
+      </div>
+
+      <hr />
+
+      <div class="sidebar-item">
+        <span>You</span>
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        <span>Your Channel</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="time-outline"></ion-icon>
+        <span>History</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="list-outline"></ion-icon>
+        <span>Playlists</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="time-outline"></ion-icon>
+        <span>Watch Later</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="thumbs-up-outline"></ion-icon>
+        <span>Liked Videos</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="play-circle-outline"></ion-icon>
+        <span>Your Videos</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="download-outline"></ion-icon>
+        <span>Downloads</span>
+      </div>
+
+      <hr />
+
+      <div class="sidebar-item">
+        <span>Explore</span>
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="musical-notes-outline"></ion-icon>
+        <span>Music</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="game-controller-outline"></ion-icon>
+        <span>Gaming</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="newspaper-outline"></ion-icon>
+        <span>News</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="chevron-down-outline"></ion-icon>
+        <span>Show More</span>
+      </div>
+
+      <hr />
+
+      <div class="sidebar-item">
+        <span>More from YouTube</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="logo-youtube"></ion-icon>
+        <span>YouTube Premium</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="logo-youtube"></ion-icon>
+        <span>YouTube Music</span>
+      </div>
+
+      <div class="sidebar-item">
+        <ion-icon name="logo-youtube"></ion-icon>
+        <span>YouTube Kids</span>
+      </div>
+
+      <hr />
+
+      <div class="sidebar-item">
+        <ion-icon name="flag-outline"></ion-icon>
+        <span>Report History</span>
+      </div>
+
+      <hr />
+
+      <li>
+        <a class="links" href="#">About </a>
+        <a class="links" href="#">Press </a>
+        <a class="links" href="#">Copyright </a>
+        <a class="links" href="#">Contact Us </a>
+        <a class="links" href="#">Creator </a>
+        <a class="links" href="#">Advertise </a>
+        <a class="links" href="#">Developers </a>
+        <br />
+
+        <a class="links" href="#">Terms </a>
+        <a class="links" href="#">Privacy </a>
+        <a class="links" href="#">Policy & Safety </a>
+        <a class="links" href="#">How YouTube Works </a>
+        <a class="links" href="#">Test new features </a>
+      </li>
+
+      <br />
+
+      <p>© 2026 Google LLC</p>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <!-- HEADER -->
+      <header>
+        <img
+          class="mobile-youtube-logo"
+          src="Youtube-logo.png"
+          alt="Youtube Logo"
+        />
+        <div class="header-search">
+          <div class="search-box">
+            <input type="search" placeholder="Search" />
+
+            <button>
+              <ion-icon id="search" name="search-outline"></ion-icon>
+            </button>
+          </div>
+
+          <ion-icon id="mic" name="mic-outline"></ion-icon>
+        </div>
+
+        <div class="header-container">
+          <button class="button-create">
+            <ion-icon id="create" name="add-outline"></ion-icon>
+            Create
+          </button>
+
+          <ion-icon id="notify" name="notifications-outline"></ion-icon>
+
+          <span class="header-span">C</span>
+        </div>
+      </header>
+
+      <!-- CATEGORY BUTTONS -->
+      <div class="header-buttons">
+        <button class="category-buttons all">All</button>
+        <button class="category-buttons">AI</button>
+        <button class="category-buttons">Nature Documentaries</button>
+        <button class="category-buttons">Sci-fi films</button>
+        <button class="category-buttons">Jackie Chan</button>
+        <button class="category-buttons">Podcasts</button>
+        <button class="category-buttons">Martial Arts Movies</button>
+        <button class="category-buttons">Chinese television dramas</button>
+        <button class="category-buttons">Thrillers</button>
+        <button class="category-buttons">Live</button>
+        <button class="category-buttons">Psychology</button>
+        <button class="category-buttons">Strategies</button>
+        <button class="category-buttons">Film & Animation</button>
+        <button class="category-buttons">Autos & Vehicles</button>
+        <button class="category-buttons">Music</button>
+        <button class="category-buttons">Pets & Animals</button>
+        <button class="category-buttons">Sports</button>
+        <button class="category-buttons">Travel & Events</button>
+        <button class="category-buttons">Gaming</button>
+        <button class="category-buttons">People & Blogs</button>
+        <button class="category-buttons">Comedy</button>
+        <button class="category-buttons">Entertainment</button>
+        <button class="category-buttons">Politics</button>
+        <button class="category-buttons">Education</button>
+        <button class="category-buttons">STEM</button>
+      </div>
+
+      <!-- VIDEO GRID -->
+      <a class="video-grid">
+        <!-- VIDEO 1 -->
+        <div class="video-card" data-id="1">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">1:37:39</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">A</div>
+
+            <div class="video-details">
+              <h3>Full Recap Of The Shark Jaw Into Hell</h3>
+              <p>Alpha Series</p>
+              <p>260K views • 2 days ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+
+        <!-- VIDEO 2 -->
+        <div class="video-card" data-id="2">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">24:16</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">D</div>
+
+            <div class="video-details">
+              <h3>10 Terrifying Creatures That Rule The Deep Ocean</h3>
+              <p>Dark Discoveries</p>
+              <p>1.2M views • 3 days ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+
+        <!-- VIDEO 3 -->
+        <div class="video-card" data-id="3">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">18:42</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">N</div>
+
+            <div class="video-details">
+              <h3>What Happens When Sharks Smell Blood In The Water?</h3>
+              <p>Nature Vault</p>
+              <p>845K views • 1 week ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+
+        <!-- VIDEO 4 -->
+        <div class="video-card" data-id="4">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">32:08</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">O</div>
+
+            <div class="video-details">
+              <h3>The Most Dangerous Predators In The Ocean</h3>
+              <p>Ocean World</p>
+              <p>3.4M views • 4 days ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+
+        <!-- VIDEO 5 -->
+        <div class="video-card" data-id="5">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">15:27</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">S</div>
+
+            <div class="video-details">
+              <h3>Scientists Found Something Massive Under The Sea</h3>
+              <p>Science Central</p>
+              <p>720K views • 6 days ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+
+        <!-- VIDEO 6 -->
+        <div class="video-card" data-id="6">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">21:54</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">W</div>
+
+            <div class="video-details">
+              <h3>Inside The World Of The Deadliest Sea Animals</h3>
+              <p>Wild World</p>
+              <p>2.1M views • 2 weeks ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+
+        <!-- VIDEO 7 -->
+        <div class="video-card" data-id="7">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">12:49</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">M</div>
+
+            <div class="video-details">
+              <h3>How Sharks Became The Ultimate Ocean Hunters</h3>
+              <p>Marine History</p>
+              <p>430K views • 5 days ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+
+        <!-- VIDEO 8 -->
+        <div class="video-card" data-id="8">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">27:31</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">T</div>
+
+            <div class="video-details">
+              <h3>5 Ocean Mysteries Scientists Still Can't Explain</h3>
+              <p>Truth Seekers</p>
+              <p>980K views • 1 week ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+
+        <!-- VIDEO 9 -->
+        <div class="video-card" data-id="9">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">16:20</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">J</div>
+
+            <div class="video-details">
+              <h3>Why Great White Sharks Are So Feared</h3>
+              <p>Wild Planet</p>
+              <p>1.8M views • 3 days ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+
+        <!-- VIDEO 10 -->
+        <div class="video-card" data-id="10">
+          <div class="thumbnail">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR13x0hFT55v5L1j6ztfTw_76cx7huOQ4MO3y2tNI69WQ&s=10"
+              alt="Video thumbnail"
+            />
+            <span class="duration">19:05</span>
+          </div>
+
+          <div class="video-info">
+            <div class="channel-avatar">C</div>
+
+            <div class="video-details">
+              <h3>The Darkest Secrets Hidden Beneath The Ocean</h3>
+              <p>Curious Minds</p>
+              <p>1.1M views • 4 days ago</p>
+            </div>
+
+            <ion-icon class="video-menu" name="ellipsis-vertical"></ion-icon>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- IONICONS -->
+    <script
+  type="module"
+  src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"
+></script>
+
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"
+></script>
+<script src="script.js"></script>
+</body>
+</html>
+  </body>
+</html>
